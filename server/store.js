@@ -58,14 +58,11 @@ function setCurrentSuperchatId(id) {
 }
 
 function addSuperChat(superchat) {
-    // Check if it's already in history to avoid duplicates
-    if (state.history.some(sc => sc.id === superchat.id)) {
+    // Check if it's already in queue or history to avoid duplicates
+    if (state.queue.some(sc => sc.id === superchat.id) || state.history.some(sc => sc.id === superchat.id)) {
         return false;
     }
 
-    // Add to history
-    state.history.unshift(superchat);
-    
     // Add to queue
     state.queue.push(superchat);
 
@@ -74,6 +71,13 @@ function addSuperChat(superchat) {
     
     saveState();
     return true;
+}
+
+function addToHistory(superchat) {
+    if (!state.history.some(sc => sc.id === superchat.id)) {
+        state.history.unshift(superchat);
+        saveState();
+    }
 }
 
 function removeFromQueue(id) {
@@ -141,6 +145,7 @@ module.exports = {
     getState,
     updateSettings,
     addSuperChat,
+    addToHistory,
     removeFromQueue,
     clearQueue,
     clearMockData,

@@ -42,6 +42,8 @@ io.on('connection', (socket) => {
     socket.on('show_superchat', (superchat) => {
         // Update current superchat
         store.setCurrentSuperchatId(superchat.id);
+        // Add to history now that it's shown
+        store.addToHistory(superchat);
         // Send to OBS overlay
         io.emit('display_superchat', superchat);
         // Remove from queue
