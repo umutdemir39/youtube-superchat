@@ -1,0 +1,104 @@
+.overlay-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px;
+  /* Make sure OBS background is transparent */
+  background: transparent !important;
+}
+
+.sc-card {
+  width: 600px;
+  max-width: 90vw;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* Glassmorphism Theme */
+.theme-glass .sc-header {
+  background: rgba(30, 41, 59, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.theme-glass .sc-body {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: white;
+}
+
+/* Transparent Theme */
+.theme-transparent {
+  box-shadow: none;
+}
+.theme-transparent .sc-card {
+  box-shadow: none;
+  background: transparent;
+}
+.theme-transparent .sc-header {
+  background: transparent;
+  /* Text shadow for readability without background */
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+.theme-transparent .sc-body {
+  background: transparent;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+  color: white;
+}
+
+/* Default YouTube Theme (approximations) */
+.theme-default .sc-header {
+  background-color: #1565C0; /* Will be overridden dynamically based on tier if we want, but keeping it simple */
+  color: white;
+}
+.theme-default .sc-body {
+  background-color: #1976D2;
+  color: white;
+}
+
+/* Content Layout */
+.sc-header {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.sc-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.sc-author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sc-author-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.sc-amount {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.sc-body {
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  font-weight: 500;
+}

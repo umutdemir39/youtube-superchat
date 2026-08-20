@@ -1,0 +1,219 @@
+{
+  "settings": {
+    "apiKey": "",
+    "videoId": "",
+    "theme": "transparent",
+    "animation": "fade"
+  },
+  "customThemes": [],
+  "queue": [
+    {
+      "id": "mock_1787170824697_730",
+      "timestamp": 1787170824697,
+      "authorName": "Fatma 1",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺50,00",
+      "amountMicros": 50000000,
+      "currency": "TRY",
+      "userComment": "Bu bir deneme mesajıdır! Harika yayınlar 🚀",
+      "tier": 3,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787172555422_372",
+      "timestamp": 1787172555422,
+      "authorName": "Deniz 22",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺73,00",
+      "amountMicros": 73000000,
+      "currency": "TRY",
+      "userComment": "Soru: Yeni video ne zaman gelecek?",
+      "tier": 7,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787172556971_936",
+      "timestamp": 1787172556971,
+      "authorName": "Elif 77",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺194,00",
+      "amountMicros": 194000000,
+      "currency": "TRY",
+      "userComment": "Gerçekten inanılmaz bir yayın. Saatlerdir izliyorum ve hiç sıkılmadım. Emeklerine sağlık, böyle devam et lütfen! Daha fazla içerik bekliyoruz.",
+      "tier": 1,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787172558130_33",
+      "timestamp": 1787172558130,
+      "authorName": "Ahmet 40",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺207,00",
+      "amountMicros": 207000000,
+      "currency": "TRY",
+      "userComment": "",
+      "tier": 2,
+      "isSticker": false
+    }
+  ],
+  "history": [
+    {
+      "id": "mock_1787172558130_33",
+      "timestamp": 1787172558130,
+      "authorName": "Ahmet 40",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺207,00",
+      "amountMicros": 207000000,
+      "currency": "TRY",
+      "userComment": "",
+      "tier": 2,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787172556971_936",
+      "timestamp": 1787172556971,
+      "authorName": "Elif 77",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺194,00",
+      "amountMicros": 194000000,
+      "currency": "TRY",
+      "userComment": "Gerçekten inanılmaz bir yayın. Saatlerdir izliyorum ve hiç sıkılmadım. Emeklerine sağlık, böyle devam et lütfen! Daha fazla içerik bekliyoruz.",
+      "tier": 1,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787172555422_372",
+      "timestamp": 1787172555422,
+      "authorName": "Deniz 22",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺73,00",
+      "amountMicros": 73000000,
+      "currency": "TRY",
+      "userComment": "Soru: Yeni video ne zaman gelecek?",
+      "tier": 7,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787170824697_730",
+      "timestamp": 1787170824697,
+      "authorName": "Fatma 1",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺50,00",
+      "amountMicros": 50000000,
+      "currency": "TRY",
+      "userComment": "Bu bir deneme mesajıdır! Harika yayınlar 🚀",
+      "tier": 3,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787170824059_773",
+      "timestamp": 1787170824059,
+      "authorName": "Mehmet 80",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺503,00",
+      "amountMicros": 503000000,
+      "currency": "TRY",
+      "userComment": "Gerçekten inanılmaz bir yayın. Saatlerdir izliyorum ve hiç sıkılmadım. Emeklerine sağlık, böyle devam et lütfen! Daha fazla içerik bekliyoruz.",
+      "tier": 5,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787170808563_35",
+      "timestamp": 1787170808563,
+      "authorName": "Can 51",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺364,00",
+      "amountMicros": 364000000,
+      "currency": "TRY",
+      "userComment": "Gerçekten inanılmaz bir yayın. Saatlerdir izliyorum ve hiç sıkılmadım. Emeklerine sağlık, böyle devam et lütfen! Daha fazla içerik bekliyoruz.",
+      "tier": 4,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787170808440_978",
+      "timestamp": 1787170808440,
+      "authorName": "Ahmet 99",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺118,00",
+      "amountMicros": 118000000,
+      "currency": "TRY",
+      "userComment": "Wow!",
+      "tier": 1,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787170808306_63",
+      "timestamp": 1787170808306,
+      "authorName": "Elif 69",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺414,00",
+      "amountMicros": 414000000,
+      "currency": "TRY",
+      "userComment": "Bu bir deneme mesajıdır! Harika yayınlar 🚀",
+      "tier": 5,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787170800960_79",
+      "timestamp": 1787170800960,
+      "authorName": "Ayşe 53",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺429,00",
+      "amountMicros": 429000000,
+      "currency": "TRY",
+      "userComment": "Destek olmak istedim, iyi eğlenceler.",
+      "tier": 6,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787170800779_26",
+      "timestamp": 1787170800779,
+      "authorName": "Ayşe 70",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺408,00",
+      "amountMicros": 408000000,
+      "currency": "TRY",
+      "userComment": "Gerçekten inanılmaz bir yayın. Saatlerdir izliyorum ve hiç sıkılmadım. Emeklerine sağlık, böyle devam et lütfen! Daha fazla içerik bekliyoruz.",
+      "tier": 3,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787170800618_794",
+      "timestamp": 1787170800618,
+      "authorName": "Zeynep 35",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺497,00",
+      "amountMicros": 497000000,
+      "currency": "TRY",
+      "userComment": "Destek olmak istedim, iyi eğlenceler.",
+      "tier": 4,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787170800463_950",
+      "timestamp": 1787170800463,
+      "authorName": "Bora 73",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺41,00",
+      "amountMicros": 41000000,
+      "currency": "TRY",
+      "userComment": "Kısa mesaj.",
+      "tier": 7,
+      "isSticker": false
+    },
+    {
+      "id": "mock_1787170789212_558",
+      "timestamp": 1787170789212,
+      "authorName": "Can 7",
+      "authorProfileImageUrl": "https://yt3.ggpht.com/a/default-user=s88-c-k-c0x00ffffff-no-rj",
+      "amountDisplayString": "₺217,00",
+      "amountMicros": 217000000,
+      "currency": "TRY",
+      "userComment": "Bu bir deneme mesajıdır! Harika yayınlar 🚀",
+      "tier": 6,
+      "isSticker": false
+    }
+  ],
+  "lastReadEventId": "mock_1787172558130_33",
+  "currentSuperchatId": "mock_1787170824059_773"
+}
