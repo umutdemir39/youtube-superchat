@@ -197,10 +197,11 @@ const Panel = ({ socket, state, isConnected, apiStatus }) => {
              <i className="fa-solid fa-bolt" style={{ color: '#3b82f6' }}></i> SC Manager
           </h1>
           <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '2rem' }}>
-            <span className={`status-badge ${isConnected ? 'success' : 'error'}`}>
-              {isConnected ? <CheckCircle size={14} /> : <XCircle size={14} />}
-              {isConnected ? 'Sunucu Bağlı' : 'Sunucu Koptu'}
-            </span>
+            {!isConnected && (
+              <span className="status-badge error">
+                <XCircle size={14} /> Sunucu Koptu
+              </span>
+            )}
             {apiStatus && (
               <span className={`status-badge ${apiStatus.type === 'success' ? 'success' : 'error'}`}>
                 {apiStatus.type === 'success' ? <CheckCircle size={14} /> : <XCircle size={14} />}

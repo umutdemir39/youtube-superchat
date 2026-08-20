@@ -2,6 +2,12 @@ const { app, BrowserWindow, Menu } = require('electron');
 const path = require('path');
 const fs = require('fs');
 
+const gotTheLock = app.requestSingleInstanceLock();
+if (!gotTheLock) {
+  app.quit();
+  process.exit(0);
+}
+
 // Start the Express backend
 require('./server/index.js');
 
@@ -60,6 +66,13 @@ function createWindow() {
     mainWindow = null;
   });
 }
+
+app.on('second-instance', () => {
+  if (mainWindow) {
+    if (mainWindow.isMinimized()) mainWindow.restore();
+    mainWindow.focus();
+  }
+});
 
 app.whenReady().then(() => {
   createWindow();
